@@ -1,11 +1,12 @@
-import React from "react";
+// import React from "react";
+// import css from "./css/Sidebar.module.css"
 
-function Sidebar(){
-    return <div>
-        <a>1</a>
-        <a>2</a>
-        <a>3</a>
-    </div>
-}
+// function Sidebar(){
+//     return <div className={css.sidebar}>
+//         <a>My Photos</a>
+//         <a>My Illustrations</a>
+//         <a>My Paintings</a>
+//     </div>
+// }
 
-export default Sidebar;
+// export default Sidebar;
