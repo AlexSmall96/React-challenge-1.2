@@ -4,20 +4,22 @@ import css from './App.module.css';
 // import NestingComponents from './components/NestingComponents';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
-import NavBarForm from './components/NavBarForm';
+// import NavBarForm from './components/NavBarForm';
+import Content from './components/Content';
 
-// function App() {
-//   return (
-//     <div className={css.App}>
-//       <NavBarSimple />
-//     </div>
-//   );
-// }
+// import RenderingLists from './components/RenderingLists';
+// // function App() {
+// //   return (
+// //     <div className={css.App}>
+// //       <NavBarSimple />
+// //     </div>
+// //   );
+// // }
 
 function App() {
   return (
     <div className={css.NavBar}>
-      <NavBarForm />
+      <Content />
     </div>
   );
 }
